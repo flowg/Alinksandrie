@@ -1,0 +1,51 @@
+{
+  "name": "",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "tsc && concurrently \"npm run grunt\" \"node App/www\" ",
+    "tsc": "ntsc",
+    "grunt": "grunt",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "dependencies": {
+    "angular2": "~2.0.0-beta.14",
+    "body-parser": "~1.15.0",
+    "cookie-parser": "~1.4.1",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "es6-shim": "~0.35.0",
+    "express": "~4.13.4",
+    "mongoose": "~4.4.12",
+    "morgan": "~1.7.0",
+    "reflect-metadata": "~0.1.3",
+    "rxjs": "~5.0.0-beta.5",
+    "serve-favicon": "~2.3.0",
+    "systemjs": "~0.19.26",
+    "zone.js": "~0.6.10"
+  },
+  "devDependencies": {
+    "concurrently": "~2.0.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-tasks": "^3.5.0",
+    "ntypescript": "1.201604160006.1",
+    "typings": "~0.7.12"
+  },
+  "description": "A small app enabling people to share links and comments about them. It&#39;s mainly a way for me to experiment with a MEAN stack with Typescript-Angular2 for Front-End.",
+  "main": "app.js",
+  "keywords": [
+    "express",
+    "mongo",
+    "angular",
+    "node"
+  ],
+  "author": "flowg",
+  "license": "ISC"
+}
